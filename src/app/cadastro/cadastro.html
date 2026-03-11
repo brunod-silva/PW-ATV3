@@ -1,0 +1,13 @@
+<h3>Cadastro</h3>
+<b>{{mensagem}}</b>
+<br><br>
+Preencha o formulario abaixo para se cadastrar.<br>
+<br>
+nome:<input type="text" [(ngModel)]="nome" placeholder="digite seu nome completo" ><br>
+email:<input type="email" [(ngModel)]="email" ><br>
+telefone:<input type="text" [(ngModel)]="telefone"><br>
+cpf:<input type="text" [(ngModel)]="cpf"><br>
+logradouro:<input type="text" [(ngModel)]="logradouro"><br>
+senha:<input type="text" [(ngModel)]="senha"><br>
+
+<button (click)="cadastrar(nome,email,telefone,cpf,logradouro,senha);">Enviar</button>
