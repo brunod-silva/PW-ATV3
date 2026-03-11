@@ -1,0 +1,8 @@
+<h3>Login</h3>
+<b>{{mensagem}}</b>
+<br>
+<br>
+cpf:<input type="text" [(ngModel)]="cpf" placeholder="cPF" ><br>
+senha:<input type="text" [(ngModel)]="senha" ><br>
+<button (click)="autenticar(cpf,senha);">login</button>
+<a href="cadastro"><button>Cadastrar</button></a>
